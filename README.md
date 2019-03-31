@@ -14,7 +14,7 @@ This is a learning project employing:
 * Google Firebase Auth
 
 
-To Deploy Front-end
+To Deploy Front-end\
 In /vue/okayare:\
 npm run build\
 pip install awscli      <- One time only to install AWS CLI\
