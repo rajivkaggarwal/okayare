@@ -15,12 +15,12 @@ This is a learning project employing:
 
 
 To Deploy Front-end
-In /vue/okayare:
-npm run build
-pip install awscli      <- One time only to install AWS CLI
+In /vue/okayare:\
+npm run build\
+pip install awscli      <- One time only to install AWS CLI\
 npm run deploy
 
 
-To Deploy Back-end
-In /serverless
-npm run deploy 
+To Deploy Back-end\
+In /serverless\
+npm run deploy\
