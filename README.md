@@ -23,4 +23,4 @@ npm run deploy
 
 To Deploy Back-end\
 In /serverless\
-npm run deploy\
+npm run deploy
