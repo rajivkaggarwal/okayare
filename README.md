@@ -2,28 +2,25 @@ This is the repo for okayare.
 
 It is a project for creating and managing OKRs.
 
-Frontend
-* Flutter
-* Vue
-* Electron
+This is a learning project employing:
 
-Backend
+* Vue
 * Serverless
 * AWS
   * Lambda
   * API Gateway
-* Database
-  * MongoDB Atlas
-* API
-  * GraphQL
-* Identity
-  * Google Firebase Auth
-* Payment / Subscription
-  * Stripe
-* Operations
-  * Monitoring
-    * Dashbird
-  * Deployment
-    * Serverless
-  * Repo
-    * GitHub
+* MongoDB Atlas
+* GraphQL
+* Google Firebase Auth
+
+
+To Deploy Front-end
+In /vue/okayare:
+npm run build
+pip install awscli      <- One time only to install AWS CLI
+npm run deploy
+
+
+To Deploy Back-end
+In /serverless
+npm run deploy 

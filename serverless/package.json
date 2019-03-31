@@ -1,0 +1,25 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "dev": "sls offline start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "sls deploy -s prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-lambda": "^2.3.1",
+    "firebase-admin": "^7.0.0",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3",
+    "json-log": "^3.0.1",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.4"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.33.0"
+  }
+}
